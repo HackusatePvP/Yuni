@@ -1,0 +1,3 @@
+name: Yuni
+version: '${project.version}'
+main: dev.hcr.yuni.Yuni

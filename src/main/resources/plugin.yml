@@ -1,3 +1,19 @@
 name: Yuni
 version: '${project.version}'
 main: dev.hcr.yuni.Yuni
+author: Hackusate_PvP
+commands:
+  ban:
+    description: Ban a player from the server.
+    permission: yuni.commands.ban
+  grant:
+    description: Set a players' rank.
+    permission: yuni.ranks.admin
+  rank:
+    description: Manages all rank commands.
+    permission: yuni.ranks.admin
+  tempban:
+    description: Temporarily ban a player from the server.
+    permission: yuni.commands.tempban
+  test:
+  unban:
